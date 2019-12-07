@@ -6,10 +6,11 @@ RUN mkdir /docker-flask
 WORKDIR /docker-flask
 COPY . .
 
+EXPOSE 80
 ENV FLASK_APP run.py
 ENV FLASK_ENV development
 ENV GIPHY_API_KEY dc6zaTOxFJmzC
-ENV TF_MODEL_URL tf-model
+ENV TF_MODEL_URL https://endpoint.ainize.ai/moonchanyong/model-server
 
 RUN pip install -r requirements.txt
 

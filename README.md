@@ -48,7 +48,7 @@ Create a `.env` file and add the following
 FLASK_APP=run.py
 FLASK_ENV=development
 GIPHY_API_KEY=dc6zaTOxFJmzC
-TF_MODEL_URL=localhost
+TF_MODEL_URL=https://endpoint.ainize.ai/moonchanyong/ffmpeg-js
 ```
 
 4. #### Installing all packages
